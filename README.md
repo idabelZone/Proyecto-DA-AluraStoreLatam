@@ -1,6 +1,6 @@
 # 🛍️ Análisis de Ventas - Alura Store LATAM
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1lSghUdvuN09wlgbAberNI6BlQEJhnsYx/view?usp=sharing)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1lSghUdvuN09wlgbAberNI6BlQEJhnsYx)
 
 ## 📘 Propósito y Descripción del Proyecto
 
@@ -37,20 +37,24 @@ El Sr. Juan necesita identificar qué tienda debe ser vendida o liquidada para f
 Durante el análisis exploratorio, se generaron diversas visualizaciones para sustentar los hallazgos. A continuación, se presentan los resultados clave que fundamentan la recomendación final:
 
 ### 1. Comparativa de Facturación Total
-![Gráfico de Facturación](assets/facturacion.png)
-> **Insight Financiero:** Se evidencia claramente que la **Tienda 4** presenta el menor ingreso total ($1,038,375,700.00), quedando significativamente rezagada frente a la sucursal líder (Tienda 1, con $1,150,880,400.00). Esta diferencia de más de 112 millones es el factor crítico para la toma de decisión.
+![Gráfico de Facturación] <img width="1190" height="690" alt="image" src="https://github.com/user-attachments/assets/96e425f0-621a-4253-a2f6-971732fee1b6" />
+> **Insight Financiero:** Se evidencia claramente que la **Tienda 4**
+** presenta el menor ingreso total ($1,038,375,700.00), quedando significativamente rezagada frente a la sucursal líder (Tienda 1, con $1,150,880,400.00). Esta diferencia de más de 112 millones es el factor crítico para la toma de decisión.
 
-### 2. Composición de Ventas por Categoría
-![Gráfico de Categorías](assets/categorias.png)
-> **Insight Comercial:** *Muebles* es la categoría dominante y el motor principal en todas las sucursales (promedio de 471 ventas). En contraste, categorías como *Libros* y *Artículos para el hogar* tienen la menor salida, lo que indica una oportunidad para reestructurar el inventario.
+### 2. Correlación de Precio vs. Satisfacción
+<img width="1487" height="955" alt="Gráfico de Correlación" src="https://github.com/user-attachments/assets/e3333da4-f367-40af-8c89-951117748688" />
+
+> **Insight Estratégico:** Al analizar si el costo de los productos afecta las reseñas de los clientes, se descubrió que este factor solo influye en la mitad de las sucursales. Específicamente, en las **Tiendas 3 y 4** existe una correlación muy negativa. Esto significa que en estas tiendas, a mayor precio del producto, la satisfacción del cliente tiende a disminuir, lo cual representa un foco de riesgo comercial que justifica aún más la decisión de vender la Tienda 4.
 
 ### 3. Satisfacción Promedio del Cliente
-![Gráfico de Satisfacción](assets/satisfaccion.png)
+![Gráfico de Satisfacción]<img width="989" height="590" alt="image" src="https://github.com/user-attachments/assets/3b08d8b4-e979-4971-87d0-38d186a0a937" />
+
 > **Insight de Calidad:** A pesar de sus bajos ingresos, la **Tienda 4** mantiene una satisfacción de cliente muy sólida (4.00/5.00), muy cercana a la líder (Tienda 3 con 4.05). Esto indica que el problema de la tienda no es el mal servicio, sino probablemente factores logísticos o de ubicación.
 
-### 4. Distribución Geográfica y Logística
-![Mapa de Ventas](assets/mapa.png)
-> **Insight Logístico:** La gran concentración de ventas ocurre en la zona central de Colombia (Bogotá, Medellín, Cali). Curiosamente, aunque la **Tienda 4** tiene el costo de envío promedio más bajo ($23,459.46 vs los $26,018.61 de la Tienda 1), este ahorro no compensa su falta de penetración en el mercado masivo.
+### 4. Costos Operativos y Alcance Geográfico
+<img width="868" height="549" alt="Gráfico de Costos de Envío" src="https://github.com/user-attachments/assets/a3556f96-13db-4152-91a2-b9e9aee73b97" />
+
+> **Insight Logístico:** El análisis de distribución confirmó que la mayor concentración de ventas ocurre en el eje central del país (Bogotá, Medellín y Cali). Al evaluar los gastos operativos, observamos que la **Tienda 1** asume los costos de envío más altos ($26,018.61 en promedio). Por otro lado, aunque la **Tienda 4** parece ser la más "eficiente" por tener el costo de envío más bajo ($23,459.46), este aparente ahorro realmente refleja su menor penetración en el mercado masivo, y no logra compensar su déficit en la facturación total.
 
 ---
 
