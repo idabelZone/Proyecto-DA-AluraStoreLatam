@@ -1,3 +1,5 @@
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/97057a36-5eb8-4658-9782-7a1f0df21da9" />
+
 # 🛍️ Análisis de Ventas - Alura Store LATAM
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1lSghUdvuN09wlgbAberNI6BlQEJhnsYx)
