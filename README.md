@@ -1,7 +1,8 @@
 # Proyecto-DA-AluraStoreLatam
 # 🛍️ Análisis de Ventas - Alura Store LATAM
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)] (https://drive.google.com/file/d/1lSghUdvuN09wlgbAberNI6BlQEJhnsYx/view?usp=sharing)
+![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg) 
+https://drive.google.com/file/d/1lSghUdvuN09wlgbAberNI6BlQEJhnsYx/view?usp=sharing
 
 ## 📘 Descripción del Proyecto
 
